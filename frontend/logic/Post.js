@@ -44,14 +44,4 @@ form.addEventListener("submit", async (event) => {
   }
 });
 
-async function getUsers() {
-  try {
-    const response = await fetch(`${API_BASE_URL}/users`);
-    const users = await response.json();
-    console.log(users);
-  } catch (error) {
-    console.error("Failed to fetch users:", error);
-  }
-}
-
-getUsers();
+  

@@ -1,0 +1,36 @@
+.contaner{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(17, 192, 69);
+}
+span{
+    color: rgb(102, 116, 106);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+}
+td a{
+    text-decoration: none;
+    color: #007bff;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    width: 30px;
+    background: #ddd;
+}
+td a:hover{
+    text-decoration: underline;
+}
